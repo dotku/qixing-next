@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div className={styles.mainContent}>
         <div className={styles.grid}>
           <div className={styles.card} style={{ margin: 0 }}>
             <div className="ev-module-text ev-module-edit-box" id="Mo_99ttX">
@@ -46,7 +46,6 @@ export default function Home() {
               width="529"
               height="356"
               allowfullscreen="true"
-              style={{ maxWidth: "30ch" }}
             ></iframe>
           </div>
         </div>
